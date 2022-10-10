@@ -86,6 +86,10 @@
       <script>!function(e,t,a,n){e[n]=e[n]||[],e[n].push({"gtm.start":(new Date).getTime(),event:"gtm.js"});var g=t.getElementsByTagName(a)[0],m=t.createElement(a);m.async=!0,m.src="https://www.googletagmanager.com/gtm.js?id=GTM-NMWC63S",g.parentNode.insertBefore(m,g)}(window,document,"script","dataLayer")</script>
     {% endblock %}
     {% block extrahead %}{% endblock %}
+    <script
+      type="text/javascript"
+      src="https://traefik.github.io/traefiklabs-header-app/main-v1.js"
+    ></script>
   </head>
   {% set direction = config.theme.direction or lang.t('direction') %}
   {% if config.theme.palette %}
