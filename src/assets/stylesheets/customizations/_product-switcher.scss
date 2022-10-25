@@ -124,7 +124,7 @@
     border-radius: 4px;
 
     & > img {
-      width: 48px
+      width: 48px;
     }
   }
 
@@ -162,6 +162,10 @@
 
     &.enterprise {
       background-color: #0060E0;
+    }
+
+    &.hub {
+      background-color: #7F8C2B;
     }
   }
 }
